@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     default: "English App",
-    template: "%s | chronark.com",
+    template: "DnZ",
   },
   description: "Instrumental English and Digital Thinking Project."
 };
