@@ -24,4 +24,5 @@ export function useMousePosition(): MousePosition {
 	}, []);
 
 	return mousePosition;
+	
 }

@@ -1,6 +1,6 @@
 {
-  "name": "chronark.com",
-  "version": "0.1.0",
+  "name": "englishapp",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,8 +11,10 @@
   "dependencies": {
     "@next/font": "^13.5.4",
     "@next/mdx": "^13.5.4",
+    "@opentelemetry/exporter-trace-otlp-grpc": "0.39.1",
     "@upstash/redis": "^1.23.3",
     "contentlayer": "^0.3.4",
+    "esbuild": "^0.18.0",
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.284.0",
     "markdown-wasm": "^1.2.0",
