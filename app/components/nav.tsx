@@ -35,6 +35,18 @@ export const Navigation: React.FC = () => {
 							Project
 						</Link>
 						<Link
+							href="/project/threads"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Threads
+						</Link>
+						<Link
+							href="/project/security"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Security
+						</Link>
+						<Link
 							href="/members"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
