@@ -26,7 +26,7 @@ export default function ProjectPage(){
                 <div className="w-full h-px bg-zinc-400 mt-0.5 mb-6"/>
                 <div className="w-full flex flex-wrap">
                     <div className="w-1/2 mb-6 flex max-[768px]:w-full">
-                        <Image src="/iateste.jpg" width={600} height={250} alt="Ia Picture" className="rounded-xl"></Image>
+                        <Image src="/security.png" width={600} height={250} alt="Ia Picture" className="rounded-xl"></Image>
                     </div>
                     <div className="w-1/2 mb-6 max-[768px]:w-full">
                         <Card>

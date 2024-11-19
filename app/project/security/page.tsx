@@ -11,7 +11,7 @@ export default function securityPage(){
             <div className="animate-fade-in duration-200 w-9/12 max-[768px]:w-full max-[768px]: p-4">
                 <div className="w-full">
                     <h2 className="py-3.5 px-0.5 z-10 text-2xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
-                        Threads
+                        Security
                     </h2>
                 </div>
                 <div className="w-full h-px bg-zinc-400 mt-0.5 mb-6"/>
