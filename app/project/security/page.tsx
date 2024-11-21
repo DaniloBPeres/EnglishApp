@@ -8,7 +8,7 @@ export default function securityPage(){
     return(
         <div className="bg-gradient-to-tl flex items-start pt-24 justify-center h-max from-zinc-900/0 via-zinc-900 to-zinc-900/0 pb-14">
             <Navigation />
-            <div className="animate-fade-in duration-200 w-9/12 max-[768px]:w-full max-[768px]: p-4">
+            <div className="animate-fade-in duration-200 flex flex-wrap w-9/12 max-[768px]:w-full max-[768px]: p-4">
                 <div className="w-full">
                     <h2 className="py-3.5 px-0.5 z-10 text-2xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
                         Security
@@ -22,13 +22,13 @@ export default function securityPage(){
                                     Encryption
                                 </h1>
                                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                                    Encryption plays a crucial role in digital security, providing a foundation for data protection in various contexts, such as communications, online transactions, user authentication, and sensitive data storage. With the rise in cyber threats, encryption has become an essential tool for protecting privacy and ensuring information security. However, encryption security also depends on factors such as the strength of cryptographic keys (the longer and more complex the key, the harder it is to break) and the correct use of appropriate algorithms. Some of its functions are:
+                                    Encryption plays a crucial role in digital security, serving as a vital tool for protecting data in various contexts, including secure communications, online transactions, user authentication, and sensitive data storage. As cyber threats become increasingly sophisticated, encryption has become indispensable for maintaining privacy and ensuring information security. Its reliability depends on factors such as the strength of cryptographic keys, where longer and more complex keys provide greater protection, and the proper implementation of robust algorithms to resist potential attacks. Furthermore, encryption supports the confidentiality of sensitive information, ensures the authenticity of users in digital systems, and helps maintain trust in online platforms by preventing data breaches and fraud. It also enables secure collaboration across digital channels, ensuring that only authorized parties can access shared data. Some of its functions are:
                                 </p>
                             </article>
                         </Card>
                     </div>
                     <div className="w-1/2 mb-6 flex justify-end max-[768px]:w-full">
-                        <Image src="/iateste.jpg" width={650} height={500} alt="Ia Picture" className="rounded-xl"></Image>
+                        <Image src="/encryption.png" width={650} height={300} alt="Ia Picture" className="rounded-xl"></Image>
                     </div>
                     <div className="mb-4 w-full">
                         <Card>

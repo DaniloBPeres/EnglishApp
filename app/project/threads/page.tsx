@@ -2,6 +2,7 @@ import { Card } from "@/app/components/card";
 import { Navigation } from "@/app/components/nav";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function threadsPage(){
     
@@ -20,6 +21,11 @@ export default function threadsPage(){
                     </Link>
                 </div>
                 <div className="w-full h-px bg-zinc-400 mt-0.5 mb-6"/>
+                <div className="w-11/12 mb-6 max-[768px]:w-1/2">
+                    <Card>
+                        <Image src="/threads.png" width={1500} height={300} alt="Ia Picture" className="rounded-xl"></Image>
+                    </Card>
+                </div>
                 <div className="w-2/5 mb-6 max-[768px]:w-1/2">
                     <Card>
                         <article className="relative w-full h-full p-4 md:p-8">

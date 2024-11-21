@@ -10,106 +10,74 @@ export default function MembersPage() {
         {
             name: "Danilo Peres",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "Anhembi Morumbi University",
             img_src: "/favicon.png",
             page_route:"members/1",
-            position:"Full-Stack Developer"
+            position:"Information Systems"
         },
         {
-            name: "Danilo Peres",
+            name: "Sara Milena",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "Anhembi Morumbi University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Law"
         },
         {
-            name: "Danilo Peres",
+            name: "Larissa Santos",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "Anhembi Morumbi University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Biomedicine"
         },
         {
-            name: "Danilo Peres",
+            name: "Lucas Moraes",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "São Judas University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Computer Sciences"
         },
         {
-            name: "Danilo Peres",
+            name: "Adilson Santana",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "Anhembi Morumbi University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Information Systems"
         },
         {
-            name: "Danilo Peres",
+            name: "Francisco Machado",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "Anhembi Morumbi University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Systems Analysis and Development"
         },
         {
-            name: "Danilo Peres",
+            name: "Raquel Graziano",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "São Judas University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Law"
         },
         {
-            name: "Danilo Peres",
+            name: "Cibele Aqueme",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "São Judas University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Law"
         },
         {
-            name: "Danilo Peres",
+            name: "Marcus Carvalho",
             age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            short_description: "Anhembi Morumbi University",
             img_src: "/favicon.png",
             page_route:"/",
-            position:"Full-Stack Developer"
-        },
-        {
-            name: "Danilo Peres",
-            age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-            img_src: "/favicon.png",
-            page_route:"/",
-            position:"Full-Stack Developer"
-        },
-        {
-            name: "Danilo Peres",
-            age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-            img_src: "/favicon.png",
-            page_route:"/",
-            position:"Full-Stack Developer"
-        },
-        {
-            name: "Danilo Peres",
-            age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-            img_src: "/favicon.png",
-            page_route:"/",
-            position:"Full-Stack Developer"
-        },
-        {
-            name: "Danilo Peres",
-            age: "22",
-            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-            img_src: "/favicon.png",
-            page_route:"/",
-            position:"Full-Stack Developer"
+            position:"Biomedicine"
         }
     ]
     return(
@@ -133,7 +101,6 @@ export default function MembersPage() {
                                 <Link href={member.page_route}>
                                     <article className="relative w-full h-full p-4 md:p-8">
                                         <div className="w-full flex mb-4">
-                                            <Image src={member.img_src} width={60} height={60} alt='image' className='rounded-full mr-4'/>
                                             <h1 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">{member.name}</h1>
                                         </div>
                                         <div className="w-full h-px bg-zinc-400 mt-0 md:mt-0 animate-fade-in duration-500"/>
