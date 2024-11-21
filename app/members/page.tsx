@@ -78,6 +78,14 @@ export default function MembersPage() {
             img_src: "/favicon.png",
             page_route:"/",
             position:"Biomedicine"
+        },
+        {
+            name: "Gustavo Cunha",
+            age: "22",
+            short_description: "São Judas Tadeu University",
+            img_src: "/favicon.png",
+            page_route:"/",
+            position:"Mechanical Engineering"
         }
     ]
     return(
