@@ -38,7 +38,7 @@ export const Navigation: React.FC = () => {
 							href="/project/threads"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Threads
+							Threats
 						</Link>
 						<Link
 							href="/project/security"

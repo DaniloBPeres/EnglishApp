@@ -121,6 +121,28 @@ export default function securityPage(){
                             </article>
                         </Card>
                     </div>
+                    <div className="w-full mb-6 max-[768px]:w-full">
+                        <Card>
+                            <article className="relative flex flex-wrap content-center w-full h-full p-4 md:p-8">
+                                <h1 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display mb-4">
+                                    Article
+                                </h1>
+                                <div className="w-full h-px bg-zinc-400 mt-0.5 mb-6"/>
+                                <iframe width="1500" height="615" src="https://revistaft.com.br/o-papel-da-criptografia-na-protecao-de-dados/" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                            </article>
+                        </Card>
+                    </div>
+                    <div className="w-1/2 mb-6 max-[768px]:w-full">
+                        <Card>
+                            <article className="relative flex flex-wrap content-center w-full h-full p-4 md:p-8">
+                                <h1 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display mb-4">
+                                    Encryption
+                                </h1>
+                                <div className="w-full h-px bg-zinc-400 mt-0.5 mb-6"/>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/AO8sF4JfD-Y?si=-jVrTWoIqEfKuMEV" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                            </article>
+                        </Card>
+                    </div>
             </div>
         </div>
     )

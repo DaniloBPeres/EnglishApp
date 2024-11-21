@@ -19,7 +19,7 @@ export default function ProjectPage(){
                     </h2>
                     <Link href="/project/threads"
                         className="duration-200 flex content-center items-center text-zinc-300 hover:text-zinc-100">
-                            <p className="leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">Threads</p>
+                            <p className="leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">Threats</p>
                             <ArrowRight className="w-6 h-6 " />
                     </Link>
                 </div>

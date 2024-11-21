@@ -86,6 +86,14 @@ export default function MembersPage() {
             img_src: "/favicon.png",
             page_route:"/",
             position:"Mechanical Engineering"
+        },
+        {
+            name: "Danilo Passos",
+            age: "22",
+            short_description: "UNISOCIESC",
+            img_src: "/favicon.png",
+            page_route:"/",
+            position:"Information Systems"
         }
     ]
     return(
